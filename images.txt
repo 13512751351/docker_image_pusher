@@ -1,4 +1,4 @@
-kafka
+apache/kafka
 centos
 nginx
 httpd
