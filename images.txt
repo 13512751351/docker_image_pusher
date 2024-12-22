@@ -2,6 +2,8 @@ apache/kafka
 centos
 nginx
 httpd
+zabbix/zabbix-server-mysql:6.0.37-ubuntu
+zabbix/zabbix-web-nginx-mysql:6.0.37-ubuntu
 --platform=linux/arm64 zabbix/zabbix-server-mysql:6.0.37-ubuntu
 --platform=linux/arm64 zabbix/zabbix-web-nginx-mysql:6.0.37-ubuntu
 
