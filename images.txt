@@ -1,17 +1,5 @@
-apache/kafka
-centos
-nginx
-httpd
-zabbix/zabbix-server-mysql:6.0.37-ubuntu
-zabbix/zabbix-web-nginx-mysql:6.0.37-ubuntu
---platform=linux/arm64 zabbix/zabbix-server-mysql:6.0.37-ubuntu
---platform=linux/arm64 zabbix/zabbix-web-nginx-mysql:6.0.37-ubuntu
 onlyoffice/documentserver:7.3
 
---platform=linux/arm64 arm64v8/mysql:latest
---platform=linux/arm64 arm64v8/mongo:latest
---platform=linux/arm64 tjqq/powerjob-server:4.3.6
---platform=linux/arm64 tdengine/tdengine:latest
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
