@@ -6,6 +6,7 @@ zabbix/zabbix-server-mysql:6.0.37-ubuntu
 zabbix/zabbix-web-nginx-mysql:6.0.37-ubuntu
 --platform=linux/arm64 zabbix/zabbix-server-mysql:6.0.37-ubuntu
 --platform=linux/arm64 zabbix/zabbix-web-nginx-mysql:6.0.37-ubuntu
+onlyoffice/documentserver:7.3
 
 --platform=linux/arm64 arm64v8/mysql:latest
 --platform=linux/arm64 arm64v8/mongo:latest
